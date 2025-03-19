@@ -1,0 +1,1022 @@
+\documentclass{article}
+\usepackage[hidelinks]{hyperref} 
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[backend=biber,style=numeric,sorting=nyt]{biblatex}
+\addbibresource{references.bib}
+\usepackage{appendix}
+
+
+\title{AI and SEO: Revolutionizing Search Engine Techniques in Content Marketing}
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{3cm}
+    
+    {\Huge \textbf{AI and SEO: Revolutionizing Search Engine Techniques in Content Marketing}}\\[1.5cm]
+    
+    \textbf{Master's Thesis}\\[1cm]
+    Written by \textbf{Léo Rongier} in fulfillment of the requirements for the\\
+    Master's degree in Information Systems at \textbf{HEC Lausanne}\\[3cm]
+    
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.6\textwidth]{Logo_Université_de_Lausanne.svg.png}
+        \label{fig:logo}
+    \end{figure}
+    
+    \vfill
+\end{titlepage}
+
+\tableofcontents
+
+
+\subsection{Abstract}
+Search Engine Optimization (SEO) has long been a cornerstone of digital marketing and content marketing, and today, it is more critical than ever. As the digital landscape evolves, businesses face increasing competition, necessitating continuous refinement of their SEO strategies to maintain and enhance visibility. The emergence of artificial intelligence (AI) has introduced a paradigm shift in SEO practices, offering new efficiencies while simultaneously challenging traditional methodologies.
+
+AI-driven tools and machine learning algorithms now play a fundamental role in optimizing digital content. These technologies can analyze vast amounts of data, predict search trends, and dynamically adjust content strategies to align with search engine algorithms. The integration of AI in SEO goes beyond keyword targeting and metadata optimization—it enables automated content generation, enhances search intent analysis, and improves user experience by personalizing content delivery. These capabilities are transforming how businesses engage with online audiences, leading to increased brand awareness, improved lead generation, and higher conversion rates.
+
+Despite its advantages, the application of AI in SEO raises several questions regarding its effectiveness, ethical implications, and potential limitations. Concerns about content originality, misinformation, and the diminishing human touch in content creation must be carefully addressed. Additionally, the reliance on AI models for content generation and optimization presents challenges in ensuring adaptability to frequent search engine algorithm updates.
+
+This study aims to explore the impact of AI on SEO techniques, evaluate its effectiveness in improving search rankings and business performance, and critically assess the limitations of AI-driven SEO strategies. By examining both the benefits and challenges, this research seeks to provide a comprehensive understanding of the role of AI in shaping the future of SEO and digital marketing.
+
+\section{Introduction}
+
+\subsection{Context and Importance of SEO in Digital Marketing}
+Search engines serve as the primary gateway for users seeking online information. A high ranking in search results significantly benefits businesses by driving traffic, customer acquisition, and revenue generation. Traditional SEO strategies focus on keyword optimization, metadata structuring, and link-building. However, as in many other domains today, AI is transforming the way we operate, design, and build strategies, and SEO is no exception. AI-powered tools such as OpenAI's, Google's, or Meta's are generating high-quality content rapidly, raising new questions about efficiency, originality, and ethical implications. Understanding AI’s influence on SEO is essential for marketers, businesses, and search engine developers to stay competitive in this evolving digital landscape.
+
+\subsection{The Role of Artificial Intelligence in Content Creation}
+Artificial intelligence is transforming digital content creation by redefining how businesses develop and distribute marketing materials. Leading AI models generate human-like text, allowing companies to scale their content strategies efficiently. These AI-driven SEO solutions seamlessly align with search engine performance criteria, optimizing all possible parameters, including keyword research, content structuring, real-time performance analysis, and technical SEO factors such as page speed and mobile responsiveness, ultimately enhancing search engine visibility. However, while AI enhances productivity, challenges remain in ensuring factual accuracy, maintaining ethical integrity, and aligning content with evolving search engine algorithms. This study evaluates the impact of AI advancements on SEO, examining its benefits, constraints, and implications for digital marketing strategies.
+
+\subsection{Research Questions}
+This thesis seeks to answer three fundamental research questions:
+
+\textbf{1. How do AI models function and contribute to SEO improvement across different dimensions?} \\
+Artificial intelligence is reshaping SEO by acting on multiple fronts simultaneously, including keyword optimization, content structuring, link-building, and technical SEO. Unlike traditional manual approaches, AI automates and refines these processes dynamically, adapting continuously to search engine algorithms. To understand how AI is revolutionizing SEO, it is essential to first examine its core mechanisms within this field.
+
+\textbf{2. How can the performance of AI-driven SEO models be evaluated using relevant indicators and metrics?} \\
+The effectiveness of AI in SEO can be measured using predefined key performance indicators (KPIs) that assess its impact on various optimization factors. These metrics will help determine whether AI is a valuable tool in terms of performance enhancement, time savings, and resource efficiency. By systematically evaluating AI-driven SEO strategies, this research aims to establish whether AI provides a tangible advantage in digital marketing compared to traditional approaches.
+
+\textbf{3. What are the inherent limitations and challenges of AI-driven SEO strategies?} \\
+As AI continues to evolve, it is crucial to question its limitations to gain a full understanding of its role in SEO. The effectiveness of AI-driven tools must be assessed not only in terms of their performance benefits but also within the broader context of their constraints. Establishing these boundaries will provide a clearer picture of AI’s true capabilities and help determine whether it can function as a reliable and sustainable tool for SEO. By exploring these limitations, this research aims to offer a comprehensive view of AI’s role in SEO, including both its strengths and its challenges.
+
+\subsection{Objectives of the Study}
+This study aims to:
+\begin{itemize}
+    \item Analyze how AI models function in optimizing SEO, focusing on automation, keyword relevance, and technical enhancements.
+    \item Evaluate the effectiveness of AI-driven SEO models through quantitative metrics such as rankings, readability, and indexing performance.
+    \item Identify the limitations and challenges of AI-driven SEO, addressing ethical concerns, content relevance, the human aspect of content creation, and adaptability to search engine updates.
+\end{itemize}
+
+\subsection{Thesis Structure}
+To provide a comprehensive analysis of AI’s impact on SEO, this thesis is structured as follows:
+
+\textbf{Chapter 2: Literature Review} \\
+Provides an in-depth literature review covering fundamental SEO concepts, the evolution of search engine ranking factors, and the growing role of AI in content creation. This section also explores the economic and technical context of AI-driven SEO, addressing how businesses leverage these tools for competitive advantage while navigating challenges such as algorithm updates and ethical concerns.
+
+\textbf{Chapter 3: Methodology} \\
+This chapter will present the research design, detailing both the quantitative and qualitative approaches adopted. It will describe the methods used for data collection, the evaluation criteria for assessing AI-driven SEO performance, and the framework for analyzing the limitations of AI models in content creation.
+
+\textbf{Chapter 4: Results} \\
+This section presents all the results obtained from the research in relation to the methodology, ensuring alignment with the study’s objectives and evaluation framework.
+
+\textbf{Chapter 5: Discussion} \\
+Interprets the findings, drawing key insights to understand their implications. This section also highlights practical applications, discusses ethical considerations, and provides a critical assessment of AI-driven SEO strategies.
+
+\textbf{Chapter 6: Conclusion} \\
+Provides a comprehensive summary of the study’s findings, drawing conclusions based on the results and insights gained. This section synthesizes the key takeaways, evaluates their implications, and outlines future research directions while offering actionable recommendations for SEO professionals.
+
+\section{Literature Review}
+
+\subsection{Origins, Evolution, and Impact of SEO}
+
+Search Engine Optimization (SEO) has evolved significantly since the early days of search engines in the 1990s. Initially, engines like AltaVista, Yahoo!, and Lycos ranked web pages primarily based on exact keyword matches \cite{haleem2022}. However, this approach was highly susceptible to manipulation, leading to biased search results.
+
+A major breakthrough occurred in 1998 when Google introduced the PageRank algorithm \cite{lewandowski2021}. Unlike previous ranking methods, PageRank evaluated the importance of a web page based on the quantity and quality of inbound links. This innovation fostered the development of link-building strategies, where marketers sought backlinks from authoritative sources to improve their rankings. Despite its effectiveness, this system was soon exploited through manipulative tactics such as link purchasing and Private Blog Networks (PBNs).
+
+To counter these exploitations, Google implemented major algorithmic updates, such as Panda (2011) and Penguin (2012), targeting low-quality content and abusive link-building practices, respectively \cite{alfiana2023}. Additionally, SEO has expanded beyond mere keyword optimization to include factors such as user experience, mobile-friendliness, and security (HTTPS). These updates reflect a shift towards enhancing content relevance and user engagement rather than purely technical optimizations.
+
+SEO now plays a crucial economic and societal role. The SEO industry was valued at over 80 billion USD in 2022 \cite{lewandowski2022}, with businesses worldwide relying on search optimization to drive traffic and revenue. Beyond commerce, SEO impacts politics, media, and public institutions by shaping online visibility and influencing public perception. Ethical concerns have also emerged regarding algorithmic biases and the potential for search engines to prioritize certain viewpoints over others. The growing prevalence of misinformation further complicates the SEO landscape, necessitating algorithmic transparency and stronger content regulation measures \cite{aggarwal2024}.
+
+\subsection{Integration of AI in Modern SEO}
+
+Artificial Intelligence (AI) has revolutionized SEO by enabling automated content generation, predictive analytics, and enhanced user experience \cite{haleem2022}. One of the most significant developments in AI-driven SEO is the incorporation of machine learning models like RankBrain and BERT.
+
+RankBrain, introduced by Google in 2015, is a machine learning algorithm designed to improve search results by better understanding user intent. Unlike traditional keyword-based methods, RankBrain interprets the meaning behind search queries and ranks pages accordingly \cite{lewandowski2021}. This advancement allows Google to handle ambiguous or never-before-seen queries more effectively.
+
+BERT (Bidirectional Encoder Representations from Transformers), launched in 2019, further improved search accuracy by understanding the contextual relationships between words in a query \cite{aggarwal2024}. Unlike previous models that processed words in a linear sequence, BERT examines both preceding and succeeding words, enhancing its comprehension of complex phrases. This improvement significantly benefited long-tail queries and conversational searches, making search results more relevant and natural.
+
+In addition to query interpretation, AI enhances various SEO practices:
+\begin{itemize}
+    \item \textbf{Automated Keyword Optimization:} AI analyzes real-time search trends and user behavior to identify high-impact keywords \cite{alfiana2023}.
+    \item \textbf{Content Generation:} Advanced language models generate SEO-friendly content that aligns with search engine ranking factors.
+    \item \textbf{Technical SEO Optimization:} AI tools improve website indexing, optimize loading speed, and enhance site architecture \cite{lewandowski2022}.
+    \item \textbf{Predictive Search Trends:} AI anticipates trending topics, allowing businesses to tailor content proactively.
+    \item \textbf{Automated Link Building:} AI identifies high-quality backlink opportunities, improving domain authority.
+\end{itemize}
+
+Recent advancements in AI have also refined how search engine results pages (SERPs) dynamically adjust rankings based on user behavior metrics such as dwell time, click-through rates, and search history. This ensures users receive more relevant and personalized search results \cite{haleem2022}. 
+
+While AI has significantly improved SEO efficiency, it raises ethical concerns regarding content originality, misinformation, and the over-reliance on automated tools. Ensuring a balance between automation and human oversight remains a key challenge for the industry \cite{apjml2023}.
+
+\subsection{Future Challenges and Transformations in SEO}
+
+The future of SEO is shaped by emerging technologies and shifting digital trends. One of the most disruptive changes is the rise of Generative Search Engines (GSEs), which provide direct answers instead of merely ranking web pages \cite{aggarwal2024}. This evolution is leading to the emergence of Generative Engine Optimization (GEO), where content must be structured to be selected by AI rather than traditional search rankings.
+
+Another challenge is the increasing dominance of Search Engine Advertising (SEA). As search engines prioritize paid advertisements, organic SEO faces diminishing visibility. Businesses must now strategically allocate resources between organic SEO and paid campaigns \cite{lewandowski2022}.
+
+Algorithmic transparency is another pressing issue. With major search platforms exerting control over content visibility, concerns over information accessibility and bias are growing. Regulatory measures may become necessary to ensure fair and diverse search results \cite{apjml2023}.
+
+Finally, AI-powered search engines introduce new risks, such as misinformation propagation. The ability of AI to generate search results autonomously raises concerns about bias and factual accuracy. Some researchers warn that excessive optimization for AI-generated results could standardize content, reducing diversity in online information \cite{haleem2022}. Addressing these challenges will require ongoing research, regulatory frameworks, and ethical considerations to maintain a balanced and reliable digital search ecosystem.
+
+
+\section{Methodology}
+
+\subsection{Introduction and Objective of the Methodology}
+
+In this study, the primary objective is to evaluate the impact of 
+Artificial Intelligence (AI) on Search Engine Optimization (SEO) by comparing three distinct content creation approaches. The goal is to determine whether AI models can outperform, match, or underperform compared to human-written content in terms of SEO compliance and effectiveness.
+
+The research is based on a quantitative comparative method, assessing SEO performance, readability, and production cost of the articles. Additionally, the study examines the time required for writing and optimization, aiming to identify the potential return on investment (ROI) of AI-based solutions in digital marketing.
+
+The expected outcomes of this study include:
+
+\begin{itemize}
+    \item Quantifying whether AI-generated content enhances SEO performance.
+    \item Comparing costs and productivity gains between human and AI-generated content.
+    \item Identifying whether an AI model specifically customized for SEO performs better than a general-purpose AI.
+    \item Understanding whether AI can effectively optimize ranking performance in search engines.
+\end{itemize}
+
+This methodology follows an experimental and comparative approach, enabling an objective assessment based on standardized metrics. By applying this structured methodology, we aim to ensure reproducibility, minimize biases, and deliver actionable insights into the effectiveness of AI in SEO-driven content generation.
+
+\subsection{Introduction of the Custom GPT-SEO Model for This Study}
+\label{sec:gpt_seo_model}
+
+To ensure an accurate and optimized evaluation of AI-generated content in SEO performance, this study incorporates a custom customized AI model explicitly designed for SEO content generation. The GPT-SEO model, based on OpenAI’s GPT-4, has been trained and optimized specifically for our industry, integrating advanced SEO parameters to enhance ranking performance.
+
+The Optimized GPT-SEO model was initially trained using 20 highly ranked articles on Google, all related to our industry—composite shutters. These articles were selected based on their strong SEO performance to ensure the model learned from well-optimized content.
+
+To refine its content generation, the model was also provided with detailed SEO best practices, ensuring that each generated article followed the latest optimization strategies to achieve the highest possible search engine ranking. Unlike a general-purpose AI, this model is designed to perform only one task: generating SEO-optimized articles, minimizing the risk of errors or off-topic content.
+
+In addition, the model was trained with extensive company-specific information, including technical vocabulary specific to composite shutters, ensuring that the generated content remains highly relevant to our business.
+
+Initially, the model required several iterations to refine its output. In the early stages, minor corrections were necessary to improve alignment with our SEO strategy. However, as it continued producing articles, the model learned and adapted, progressively understanding what worked and what did not. Over time, it became fully optimized, capable of producing high-ranking, SEO-friendly articles with minimal adjustments.
+
+
+\subsection{Methodological Approach}
+
+\subsubsection{Justification for the Chosen Approach}
+A qualitative approach could have been considered for this study; however, drawing concrete conclusions from qualitative data is challenging, particularly in the context of SEO performance measurement. A qualitative study would require a large panel of human evaluators, making data collection and analysis considerably more complex and resource-intensive. Instead, an experimental approach based on quantitative analysis provides a more structured and objective means to assess SEO performance using standardized tools.
+
+For this reason, a comparative experimental methodology was applied. This method is quantitative, as it relies on analyzing SEO scores of three different sample groups. These scores are obtained using specialized SEO performance tools that evaluate key aspects such as content structure, readability, keyword optimization, and overall SEO effectiveness.
+
+\subsubsection{Experimental Comparative Methodology}
+We structured the study around three distinct datasets, each containing 50 articles, resulting in a total sample size of 150 articles. This ensures a statistically significant dataset while maintaining practical feasibility for data collection and analysis. The margin of error for this sample size remains within an acceptable range for drawing reliable conclusions.
+
+The first dataset comprises human-written articles published between 2018 and 2022, before the widespread adoption of large language models (LLMs) such as GPT-3.5. These articles are assumed to be entirely human-generated and were selected from a pool of over 20 different companies, all of which have well-ranked websites in the industry.
+
+For the second dataset, instead of using a single uniform prompt, we employed a general prompt adapted into five distinct variations, each focusing on a specific type of window shutter: composite shutters, aluminum shutters, roller shutters, PVC shutters, and louvered shutters. 
+
+The five prompts used were:
+
+\begin{quote}
+    "Write a 500-word SEO-optimized blog article on composite shutters."
+\end{quote}
+
+\begin{quote}
+    "Write a 500-word SEO-optimized blog article on aluminum shutters."
+\end{quote}
+
+\begin{quote}
+    "Write a 500-word SEO-optimized blog article on roller shutters."
+\end{quote}
+
+\begin{quote}
+    "Write a 500-word SEO-optimized blog article on PVC shutters."
+\end{quote}
+
+\begin{quote}
+    "Write a 500-word SEO-optimized blog article on louvered shutters."
+\end{quote}
+
+Each AI model was assigned to generate two articles per prompt, resulting in a total of 10 articles per model. With five different LLMs—GPT-4, Gemini, Claude, Mistral, and Deepseek—the dataset comprises a total of 50 AI-generated articles. This approach enables a structured comparison of SEO performance across different models and shutter types.
+
+The third dataset consists of 50 articles generated by a custom customized AI model, which is specifically adapted to our company’s content strategy and SEO optimization requirements. This model, built on GPT-4, has been trained to maximize SEO performance specifically for our industry.
+
+\subsubsection{Methodological Steps}
+The study follows a structured methodology in several key phases:
+
+\begin{enumerate}
+    \item \textbf{Data Collection}:
+    \begin{itemize}
+        \item Selection of 50 human-written articles from 20 different well-ranked companies.
+        \item Generation of 50 AI-written articles using GPT-4, Gemini, Claude, Mistral, and Deepseek.
+        \item Generation of 50 AI-optimized articles using our customized GPT-based model.
+    \end{itemize}
+    
+    \item \textbf{SEO Performance Evaluation}:
+    \begin{itemize}
+        \item Each article is analyzed using SEO scoring tools, primarily SEMrush.
+        \item Metrics evaluated include:
+        \begin{itemize}
+            \item Overall SEO score
+            \item Keyword optimization (density, placement, relevance)
+            \item Readability score
+            \item Structural compliance (headings, meta descriptions, links)
+        \end{itemize}
+    \end{itemize}
+
+    \item \textbf{Comparative Analysis}:
+    \begin{itemize}
+        \item The average SEO scores of each dataset are compared.
+        \item Inter-model performance analysis of AI-generated content.
+        \item Human vs. AI vs. customized AI performance evaluation.
+    \end{itemize}
+
+    \item \textbf{Validation and Interpretation}:
+    \begin{itemize}
+        \item Statistical significance testing to ensure meaningful results.
+        \item Identification of strengths and weaknesses of each content creation approach.
+    \end{itemize}
+\end{enumerate}
+
+This structured methodology ensures a data-driven evaluation of AI’s impact on SEO, providing actionable insights for businesses looking to leverage AI in content marketing strategies.
+
+\subsection{Sample Constitution and Data Collection}
+
+Establishing a representative and statistically sound sample is a crucial challenge in this study. The complexity of SEO performance analysis and the various influencing factors make it difficult to construct a sufficiently large sample that is both manageable and analytically meaningful. Given these constraints, we opted for a sample of 150 articles, divided into three groups of 50, to provide a preliminary yet robust analysis of trends in AI-driven and human content generation. However, this sample size is not sufficient for definitive statistical significance but serves as an initial step to establish broad trends. If substantial differences appear between the groups, it will indicate strong tendencies, warranting further research with larger samples.
+
+\subsubsection{Justification of Sample Size}
+
+The selection of 50 articles per category is based on statistical considerations. The margin of error ($ME$) for a given confidence level can be estimated using the standard formula:
+
+\begin{equation}
+ME = Z \times \sqrt{\frac{p(1-p)}{n}}
+\end{equation}
+
+where $Z$ is the Z-score corresponding to the desired confidence level (1.96 for 95\%), $p$ is the estimated proportion (assumed to be 0.5 for maximum variability), and $n$ is the sample size.
+
+With $n=50$ per group, the margin of error is approximately 13\%, which, while slightly high, remains acceptable for a preliminary study aimed at identifying significant trends.
+
+\subsubsection{Overview of the Sample Groups}
+
+The dataset is composed of three distinct groups of articles, categorized based on their mode of production and optimization strategy. The details of the sample composition are provided in Table \ref{tab:sample_details}.
+
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.8} % Increased row height
+    \setlength{\tabcolsep}{6pt} % Adjusted column spacing
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        & \textbf{Group 1} & \textbf{Group 2} & \textbf{Group 3} \\
+        \hline
+        \textbf{Source} & Human writers & Deepseek, GPT-4, Claude, Gemini, Mistral & customized GPT-4 model \\
+        \hline
+        \textbf{Number of Articles} & 50 & 50 & 50 \\
+        \hline
+        \textbf{Content Type} & Human-written articles & AI-generated (General AI) & AI-generated (SEO-optimized AI) \\
+        \hline
+        \textbf{Theme} & Window shutters market & Window shutters market & Window shutters market \\
+        \hline
+        \textbf{Keyword Control} & Defined for consistency & Provided as input & Optimized  \\
+        \hline
+        \textbf{Word Count} & 400-1000 words & 400-1000 words & 400-1000 words \\
+        \hline
+    \end{tabular}}
+    \caption{Detailed composition of the sample groups}
+    \label{tab:sample_details}
+\end{table}
+
+\subsubsection{Data Collection and Selection Criteria}
+
+Each article was selected based on strict criteria to ensure comparability and consistency. The human-written articles originate from over 30 different companies to introduce diversity in writing styles and perspectives. These articles were collected from reputable sources within the industry, ensuring they were published before November 2022. While large language models existed before this date, their accessibility to the general public was limited. We assume that widespread public adoption of AI-generated content began with the release of ChatGPT’s first publicly available version in November 2022. Therefore, for the purposes of this study, we hypothesize that all articles published before this date were written by humans.
+
+
+
+For AI-generated content, two approaches were employed. The general AI-generated articles were created using Deepseek, GPT-4, Claude, Gemini, and Mistral without any manual post-processing or optimization, allowing for an assessment of raw AI capabilities. The SEO-optimized AI-generated articles were produced using a customized GPT-4 model that incorporates SEO best practices. This model is actively used within the company for content marketing and was designed to enhance search engine rankings while maintaining readability and engagement.
+
+To ensure thematic consistency, all articles focus on the window shutters market. This selection eliminates biases introduced by different subject matters and allows for a direct comparison of content performance. Furthermore, a predefined set of target keywords was used across all groups to maintain comparability in SEO evaluation. These keywords were determined based on industry standards and SEO optimization tools to reflect common search trends within the market.
+
+The articles were further analyzed based on readability, keyword density, and SEO compliance to verify the integrity of the dataset before performance evaluation. This rigorous data collection approach ensures that the findings are reliable and applicable to real-world content marketing strategies.
+
+\subsection{SEO Performance Criteria}
+
+SEMrush is a leading digital marketing tool widely recognized for its comprehensive SEO analytics and insights. Established as a trusted platform, SEMrush is utilized by millions of users worldwide, ranging from small businesses to large enterprises, making it the industry benchmark for SEO analysis. Its credibility stems from its extensive dataset, machine-learning algorithms, and continuous updates to align with the latest search engine ranking factors.
+
+For this study, we will use the SEO Content Checker from SEMrush to evaluate and assign SEO and readability scores to the selected articles. Each article will be analyzed through SEMrush’s assessment tool, which generates a performance score based on predefined SEO best practices.
+
+Each article will be processed through SEMrush's analysis and rating tool, providing a score out of 10. We will then aggregate these scores to establish the mean and median SEO performance across the three sample groups.
+
+The SEO score from SEMrush is based on over 50 criteria, covering multiple aspects of content optimization. Some key factors include:
+
+\begin{enumerate}
+    \item \textbf{Keyword Optimization}: Evaluates the presence, density, and strategic placement of the target keyword within the content. For instance, an article should include the target keyword at least five times within a 500-word text.
+    \item \textbf{Meta Tags and Descriptions}: Analyzes the correct usage of title tags and meta descriptions, ensuring they accurately summarize the content while incorporating the target keyword.
+    \item \textbf{Headings Structure}: Checks if the article follows a logical hierarchy, with a single H1 heading, multiple H2s for subtopics, and potential H3s for further subdivisions.
+    \item \textbf{Internal and External Links}: Evaluates whether the article includes at least one internal link to another relevant piece of content within the same website and at least one external link to a credible source.
+    \item \textbf{Word Count and Content Length}: Measures the number of words in the article, ensuring it meets the recommended length for SEO optimization.
+\end{enumerate}
+
+Additionally, SEMrush provides a readability score based on the Flesch Reading Ease formula, calculated as:
+\[
+    206.835 - 1.015 \times \left(\frac{\text{Total Words}}{\text{Total Sentences}}\right) - 84.6 \times \left(\frac{\text{Total Syllables}}{\text{Total Words}}\right)
+\]
+
+Higher scores indicate easier readability, with score thresholds aligning with educational levels. 
+
+Using SEMrush’s SEO Content Checker, this study ensures a data-driven, standardized approach to evaluating the effectiveness of AI-generated versus human-written content in search engine rankings.
+
+
+\subsection{Analysis of Writing Time and Cost}
+
+The objective of this section is to compare the time and cost associated with content production between human writers and AI-based solutions, particularly general-purpose language models and SEO-optimized AI models.
+
+\subsubsection{Writing Time Analysis}
+
+1. \textbf{Human Writing:} \\
+   - According to various business sources in the content writing industry, the average time required for a professional SEO blog writer to produce a 1,000-word article is between \textbf{3 and 4 hours}.\\
+   - This duration includes essential steps such as \textit{research, drafting, SEO optimization, and proofreading}.\\
+   - For a \textbf{500-word article}, the estimated writing time is between \textbf{1.5 and 2 hours}.
+
+2. \textbf{AI-Generated Content:} \\
+   - The AI models used in this study generally generate a full article in \textbf{30 seconds to 2 minutes}.\\
+   - The SEO-optimized AI model used in this study was pre-tuned manually with GPT, which took \textbf{4 hours} in total. After pre-tuning, it follows the standard request time of approximately \textbf{30 seconds to 2 minutes} per article.
+
+\subsubsection{Estimated Cost Analysis}
+
+1. \textbf{Human Writing:} \\
+   - According to market salary reports, the average annual salary of a marketing content writer in France is approximately \textbf{€33,703}, corresponding to an hourly wage of around \textbf{€17.26}.\\
+   - Consequently, the estimated cost for a \textbf{1,000-word article} ranges between \textbf{€51.78 and €69.04}, leading to an approximate cost of \textbf{€25 to €35 for a 500-word article}.
+
+2. \textbf{AI-Generated Content:} \\
+   - General-purpose AI models are available through subscription plans (e.g., \textbf{\$20/month} for unlimited queries).\\
+   - The cost per request is negligible (approximately \textbf{€0.02 per article}).\\
+   - The additional cost of customization for SEO optimization is rapidly amortized, as SEO best practices recommend publishing approximately two articles per week. Thus, the initial investment in customization becomes negligible over time.
+
+\subsubsection{Comparative Overview}
+
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.8} % Increased row height
+    \setlength{\tabcolsep}{6pt} % Adjusted column spacing
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        & \textbf{Group 1} & \textbf{Group 2} & \textbf{Group 3} \\
+        \hline
+        \textbf{Source} & Human writers & General AI models & customized GPT-4 for SEO \\
+        \hline
+        \textbf{Average Writing Time} & 1.5 - 2 hours (500 words) & 30 sec - 2 min & 30 sec - 2 min  \\
+        \hline
+        \textbf{Estimated Cost} & €25 - €35 & ~€0.02 & ~€0.02 (initial cost amortized over time) \\
+        \hline
+    \end{tabular}}
+    \caption{Comparison of Writing Time and Cost Between Human and AI-Generated Content}
+    \label{tab:comparison}
+\end{table}
+
+This overview provides the foundational data necessary to assess the economic impact of these three different sample groups. It will enable us to analyze their cost-effectiveness in relation to their SEO performance, ultimately offering a comprehensive view of the price-performance ratio for each approach. \newline
+
+\section{Results}
+
+\subsection{Group 1 (Human-Written Articles)}
+
+This section presents the results obtained for articles written by human authors. The SEO and readability scores were assigned using the SEMrush tool, which evaluates SEO performance and text readability, providing a score out of 100.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{SEO Score Group 1.png}
+    \caption{Scatter plot of SEO scores for Group 1 (Human-Written Articles)}
+    \label{fig:seo_scatter_group1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Readability score group 1.png}
+    \caption{Scatter plot of Readability scores for Group 1 (Human-Written Articles)}
+    \label{fig:readability_scatter_group1}
+\end{figure}
+
+\subsubsection{Results Table}
+The summary of the scores obtained is presented in Table~\ref{tab:group1_scores}.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|c|c|}
+        \hline
+        \textbf{Metric} & \textbf{SEO Score} & \textbf{Readability Score} \\
+        \hline
+        Average & 55.41 & 70.47 \\
+        Median & 53.00 & 70.50 \\
+        Sigma & 12.96 & 5.21 \\
+        Min & 39.00 & 56.60 \\
+        Max & 95.00 & 80.90 \\
+        \hline
+    \end{tabular}
+    \caption{SEO and Readability Scores Overview for Group 1}
+    \label{tab:group1_scores}
+\end{table}
+
+\subsubsection{SEO Performance Analysis}
+The SEO scores for Group 1 articles, evaluated on a scale of 100, indicate a moderate level of optimization overall. The average score of 55.41 is slightly above the midpoint, suggesting that while some articles have implemented SEO strategies, there remains significant room for improvement.
+
+The distribution of scores is characterized by a wide range, from a minimum of 39.00 to a maximum of 95.00. This strong variation highlights the disparity in SEO quality among the articles, with some achieving near-optimal optimization while others lag behind. 
+
+The standard deviation of 12.96 confirms this variability, indicating that scores are not tightly clustered around the average but rather spread out across different levels of SEO effectiveness. This suggests that while certain articles follow SEO best practices, others lack optimization efforts, leading to inconsistent performance across the dataset.
+
+Several factors contribute to these variations, including:
+
+\begin{itemize}
+    \item \textbf{Title Length:} Some article titles are either too long or too short, affecting their optimization.
+    \item \textbf{Keyword Density:} Articles contain either an excess or a shortage of keywords relative to text length.
+    \item \textbf{Internal and External Links:} Many articles lack internal linking (essential for site SEO) or external references, reducing their overall optimization.
+    \item \textbf{ALT Attributes on Images:} A recurrent absence of alternative text (``ALT tags''), which is crucial for image SEO.
+\end{itemize}
+
+\subsubsection{Readability Analysis}
+Readability scores for Group 1 articles are relatively high, with an average of 70.47 on a scale of 100. This suggests that, in general, the texts are accessible and easy to read for a broad audience.
+
+Unlike SEO scores, readability scores exhibit less variability. The minimum and maximum scores, 56.60 and 80.90 respectively, indicate that most articles maintain a relatively stable level of readability. The standard deviation of 5.21 further confirms this homogeneity, suggesting that differences in readability between articles are less pronounced compared to SEO performance.
+
+Despite these positive results, certain aspects still affect readability, including:
+\begin{itemize}
+    \item \textbf{Sentence Length:} Some articles contain overly long sentences, which can impact reading fluency.
+    \item \textbf{Lexical Complexity:} The use of complex vocabulary in certain texts may reduce accessibility for a general audience.
+\end{itemize}
+
+While readability remains consistent across the dataset, minor adjustments in sentence structure and word choice could further improve comprehension and engagement.
+
+
+\subsubsection{Trend Observations}
+While some websites tend to achieve higher SEO scores overall, suggesting the possible involvement of more specialized SEO knowledge, the results remain too variable to establish a clear trend. The significant dispersion of SEO scores indicates that optimization practices and expertise vary widely among authors, with some demonstrating strong knowledge of SEO principles while others appear to apply fewer optimization strategies.
+
+In contrast, readability scores exhibit much less variability. The proximity of the median (70.50) and the mean (70.47), combined with a relatively low standard deviation, suggests that human-written articles tend to maintain a consistently high level of readability. This consistency implies that, despite differences in writing styles, human authors naturally produce content that aligns well with readability metrics, maintaining a certain linguistic accessibility across different writers.
+
+
+\subsection{Group 2 (LLM-Generated Articles)}
+
+This section presents the results obtained for articles generated by five large language models (LLMs): ChatGPT-4o (OpenAI), Deepseek, Claude, Gemini, and Mistral. The SEO and readability scores were assigned using the SEMrush tool, which evaluates SEO performance and text readability, providing a score out of 100.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{SEO Score Group 2.png}
+    \caption{Scatter plot of SEO scores for Group 2 (LLM-Generated Articles)}
+    \label{fig:seo_scatter_group2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Readability score group 2.png}
+    \caption{Scatter plot of Readability scores for Group 2 (LLM-Generated Articles)}
+    \label{fig:readability_scatter_group2}
+\end{figure}
+
+\subsubsection{Results Table}
+The summary of the scores obtained is presented in Table~\ref{tab:group2_scores}.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|l|c|c|}
+        \hline
+        \textbf{Metric} & \textbf{SEO Score} & \textbf{Readability Score} \\
+        \hline
+        Average & 51.28 & 57.17 \\
+        Median & 48.50 & 57.75 \\
+        Standard Deviation & 11.51 & 6.58 \\
+        Min & 34.00 & 37.60 \\
+        Max & 87.00 & 68.00 \\
+        \hline
+    \end{tabular}
+    \caption{SEO and Readability Scores Overview for Group 2}
+    \label{tab:group2_scores}
+\end{table}
+
+\subsubsection{SEO Performance Analysis}
+The SEO scores for Group 2 articles indicate a slightly lower level of optimization compared to Group 1. With an average score of 51.28, the majority of LLM-generated articles remain around the mid-range, suggesting a moderate level of SEO effectiveness.
+
+The range of scores, from a minimum of 34.00 to a maximum of 87.00, reveals significant variation among the articles. This dispersion indicates that while some AI-generated articles achieve competitive SEO performance, others fail to meet optimization standards.
+
+The standard deviation of 11.51 confirms this variability, reflecting inconsistencies in how well different articles are optimized. The observed disparities may stem from how different prompts influence the models' ability to incorporate SEO best practices effectively. Notably, certain articles achieve strong optimization, but many fall into an average or below-average category, highlighting the need for manual refinements in LLM-generated content.
+
+Several factors contribute to these variations, including:
+\begin{itemize}
+    \item \textbf{Keyword Usage:} Some articles contain an unbalanced distribution of keywords, either overusing or underutilizing them.
+    \item \textbf{Internal and External Linking:} Many AI-generated articles lack sufficient internal site references and external citations, reducing their optimization quality.
+    \item \textbf{Heading Structure:} Poor organization of headings (H1, H2, H3) in some articles leads to weaker hierarchical structure for SEO.
+    \item \textbf{Content Depth:} Some articles provide superficial or generic information, failing to meet the depth expected for higher SEO rankings.
+\end{itemize}
+
+\subsubsection{Readability Analysis}
+Readability scores for Group 2 articles are lower than those observed in Group 1, with an average of 57.17 on a scale of 100. This suggests that AI-generated content, while generally readable, does not reach the same level of linguistic accessibility as human-written articles.
+
+Unlike SEO scores, readability scores also display a wide range, from a minimum of 37.60 to a maximum of 68.00, indicating notable fluctuations in text accessibility. The standard deviation of 6.58 reflects this dispersion, showing that readability levels vary significantly depending on the model used and the prompt structure.
+
+Several elements impact readability:
+\begin{itemize}
+    \item \textbf{Vocabulary Complexity:} Certain articles use overly technical or formal language, which may reduce accessibility for a general audience.
+    \item \textbf{Sentence Structure:} AI-generated content sometimes features unnatural phrasing or overly structured sentence patterns that may hinder fluid reading.
+    \item \textbf{Coherence and Flow:} Some articles lack smooth transitions, making comprehension more challenging compared to human-authored texts.
+\end{itemize}
+
+While LLM-generated content is largely understandable, improving lexical choices and refining sentence structures could enhance overall readability.
+
+
+\subsubsection{Model Rankings}
+
+Before analyzing the overall trends, we classify the AI models based on their performance in SEO and readability.
+
+\paragraph{SEO Ranking (Best to Worst)}
+The ranking of models based on their average SEO score is presented in Table~\ref{tab:seo_ranking}.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Rank} & \textbf{Model} & \textbf{Average SEO Score} \\
+        \hline
+        1 & OpenAI (ChatGPT-4o) & 58.20 \\
+        2 & Claude & 52.10 \\
+        3 & Deepseek & 50.60 \\
+        4 & Mistral & 48.30 \\
+        5 & Gemini & 47.20 \\
+        \hline
+    \end{tabular}
+    \caption{Ranking of AI models based on SEO score}
+    \label{tab:seo_ranking}
+\end{table}
+
+\paragraph{Readability Ranking (Best to Worst)}
+The ranking of models based on their average readability score is shown in Table~\ref{tab:readability_ranking}.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Rank} & \textbf{Model} & \textbf{Average Readability Score} \\
+        \hline
+        1 & OpenAI (ChatGPT-4o) & 62.71 \\
+        2 & Deepseek & 61.18 \\
+        3 & Gemini & 58.95 \\
+        4 & Mistral & 55.17 \\
+        5 & Claude & 47.82 \\
+        \hline
+    \end{tabular}
+    \caption{Ranking of AI models based on Readability score}
+    \label{tab:readability_ranking}
+\end{table}
+
+
+\subsubsection{Trend Observations}
+
+The results for Group 2 indicate that SEO performance varies significantly among LLM-generated articles, with a broad range of scores and notable inconsistencies. This suggests that AI-generated content does not systematically follow SEO best practices, likely due to variations in prompt design and the models' differing abilities to integrate optimization strategies.
+
+Readability scores, while showing some fluctuations, appear more stable compared to SEO performance. However, some AI-generated articles exhibit unnatural sentence structures and complex vocabulary, impacting overall accessibility. This highlights a potential trade-off where optimization for readability does not necessarily translate into improved SEO performance.
+
+Given the \textbf{small sample size of only 10 articles per model}, it is not possible to establish clear trends or meaningful differences between models. The observed variations could be due to random factors rather than inherent strengths or weaknesses of the models.
+
+
+\subsection{Group 3 (GPT Pre-Trained for SEO Content)}
+
+This section presents the results obtained for articles generated by a custom pre-trained GPT model optimized specifically for SEO content. Unlike generic large language models, this model was customized with advanced SEO methodologies to enhance overall performance in terms of visibility and readability.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{SEO Score Group 3.png}
+    \caption{Scatter plot of SEO scores for Group 3 (GPT Pre-Trained for SEO Content)}
+    \label{fig:seo_scatter_group3}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Readability score group 3.png}
+    \caption{Scatter plot of Readability scores for Group 3 (GPT Pre-Trained for SEO Content)}
+    \label{fig:readability_scatter_group3}
+\end{figure}
+
+\subsubsection{Results Table}
+The summary of the scores obtained is presented in Table~\ref{tab:group3_scores}.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|l|c|c|}
+        \hline
+        \textbf{Metric} & \textbf{SEO Score} & \textbf{Readability Score} \\
+        \hline
+        Average & 81.00 & 62.13 \\
+        Median & 83.00 & 62.15 \\
+        Standard Deviation & 9.43 & 4.35 \\
+        Min & 55.00 & 54.90 \\
+        Max & 95.00 & 74.30 \\
+        \hline
+    \end{tabular}
+    \caption{SEO and Readability Scores Overview for Group 3}
+    \label{tab:group3_scores}
+\end{table}
+
+
+
+\subsubsection{SEO Performance Analysis}
+The SEO scores for Group 3 indicate a significantly higher level of optimization compared to Groups 1 and 2. With an average score of 81.00 and a median of 83.00, the model demonstrates strong consistency in producing well-optimized content. 
+
+The range of scores, spanning from 55.00 to 95.00, suggests that while some articles fall below the highest levels of optimization, most outputs remain within a competitive SEO range. The relatively low standard deviation of 9.43 further confirms that this model maintains more stable SEO performance compared to the variability observed in Groups 1 and 2.
+
+\subsubsection{Readability Analysis}
+While Group 3 readability scores are slightly higher than those of Group 2, they remain significantly lower compared to human-written content. The average score of 62.13 suggests that pre-training for SEO does not inherently improve readability to human-like levels.
+
+As observed in Group 2, the main limitation in readability is the complexity of vocabulary and lack of accessibility for a broad audience. Although the model produces structured and coherent text, it tends to use advanced terminology and complex phrasing, making it less readable for general users.
+
+\subsubsection{Trend Observations}
+Group 3 results indicate a clear improvement in SEO performance, likely due to the model's pre-training specifically for content optimization. Unlike previous groups, where SEO scores showed high variability, this model produces consistently well-optimized articles with fewer fluctuations.
+
+
+Overall, both Group 2 and Group 3 exhibit the same fundamental weakness: while AI-generated content can be optimized for SEO, it struggles to maintain readability at a level suitable for general audiences due to the complexity of the vocabulary used. Future refinements should focus on balancing technical optimization with linguistic accessibility to improve the usability of AI-generated content.
+
+\subsection{Comparative Analysis of SEO and Readability Scores}
+
+In this section, we present a comparative analysis of the SEO and readability scores obtained across the three groups: Human-Written Articles (Group 1), LLM-Generated Articles (Group 2), and GPT Pre-Trained for SEO Content (Group 3). 
+
+\subsubsection{SEO Performance Comparison}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{Comparision SEO Score.png}
+    \caption{Comparison of SEO Scores Across Groups}
+    \label{fig:seo_scores}
+\end{figure}
+
+\paragraph{Overall SEO Performance}
+From the comparison, it is Group 3 that achieved the highest \textbf{average SEO score} 
+(\textbf{81.00}), significantly outperforming both Group 1 (\textbf{55.41}) and Group 2 (\textbf{51.28}). 
+This suggests that an AI model specifically optimized for SEO can generate content that 
+performs better in terms of search engine rankings.
+
+\paragraph{Median and Distribution}
+The \textbf{median SEO score} follows the same trend: Group 3 (\textbf{83.00}) remains ahead 
+of Group 1 (\textbf{53.00}) and Group 2 (\textbf{48.50}). This confirms that GPT-optimized 
+content consistently outperforms the other two methods.
+
+The \textbf{standard deviation (Sigma)} of Group 3 (\textbf{9.43}) is the lowest, 
+indicating a more stable and consistent performance compared to Group 1 (\textbf{12.96}) 
+and Group 2 (\textbf{11.51}). A lower variance suggests that the SEO scores of the 
+GPT-SEO generated articles are more homogeneous.
+
+\paragraph{Minimum and Maximum SEO Scores}
+The \textbf{maximum SEO score} reached by all groups is similar: \textbf{95.00} for 
+both Group 1 and Group 3, and \textbf{87.00} for Group 2. This suggests that 
+while some human-written articles can achieve high SEO performance, GPT-SEO 
+models reach similar peak values more consistently.
+
+The \textbf{minimum SEO score} reveals another key insight: Group 3 maintains a 
+higher lower bound (\textbf{55.00}) compared to Group 1 (\textbf{39.00}) and 
+Group 2 (\textbf{34.00}). This means that GPT-SEO consistently generates 
+content with a stronger baseline SEO performance.
+
+\paragraph{Key Observations and Implications}
+\begin{itemize}
+    \item \textbf{GPT-SEO (Group 3) achieves the best SEO performance} with the highest average 
+          and median scores, while also having the lowest variation.
+    \item \textbf{Human-written articles (Group 1) show a balanced performance}, with some 
+          articles reaching high SEO scores but with greater variability.
+    \item \textbf{LLM-generated articles (Group 2) have the lowest SEO scores overall}, 
+          indicating that generic language models may require additional optimization for 
+          SEO purposes.
+    \item \textbf{SEO stability is highest in Group 3}, suggesting that pre-trained models 
+          designed for SEO optimization produce more reliable results.
+\end{itemize}
+
+\subsubsection{Readability Performance Comparison}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Comparision Readability Score.png}
+    \caption{Comparison of Readability Scores Across Groups}
+    \label{fig:readability_scores}
+\end{figure}
+
+\paragraph{Overall Readability Performance}
+From the results, it is clear that \textbf{Group 1 (Human-Written Articles)} achieved 
+the highest \textbf{average readability score} (\textbf{70.47}), significantly outperforming 
+both Group 3 (\textbf{62.13}) and Group 2 (\textbf{57.17}). This confirms the widely 
+accepted notion that human-authored content tends to be more natural and 
+engaging for readers.
+
+\paragraph{Median and Distribution}
+The \textbf{median readability score} follows a similar pattern: Group 1 (\textbf{70.50}) remains 
+the highest, followed by Group 3 (\textbf{62.15}) and Group 2 (\textbf{57.75}). This 
+suggests that while AI-generated content can approach human levels of readability, 
+it still struggles to fully replicate human writing style and coherence.
+
+The \textbf{standard deviation (Sigma)} highlights another key aspect. Group 3 (\textbf{4.35}) 
+has the lowest variability in readability, meaning its performance is more stable. 
+In contrast, Group 1 (\textbf{5.21}) and Group 2 (\textbf{6.58}) exhibit slightly greater 
+fluctuations, indicating that human-written and LLM-generated articles 
+vary more in readability.
+
+\paragraph{Minimum and Maximum Readability Scores}
+The \textbf{maximum readability score} achieved is highest for Group 1 (\textbf{80.90}), 
+which significantly surpasses both Group 3 (\textbf{74.30}) and Group 2 (\textbf{68.00}). 
+This suggests that top-performing human-written articles can reach higher readability 
+levels compared to AI-generated content.
+
+The \textbf{minimum readability score} provides further insights. Group 1 has a 
+higher lower bound (\textbf{56.60}), compared to Group 3 (\textbf{54.90}) and 
+Group 2 (\textbf{37.60}). This indicates that AI-generated content, particularly 
+from LLMs, can sometimes produce significantly less readable content.
+
+\paragraph{Key Observations and Implications}
+\begin{itemize}
+    \item \textbf{Human-written articles (Group 1) achieve the best readability}, 
+          confirming the advantage of human intuition in crafting engaging content.
+    \item \textbf{GPT-SEO (Group 3) provides a balance between SEO and readability}, 
+          performing better than standard LLM-generated content but still not reaching 
+          human levels of engagement.
+    \item \textbf{LLM-generated articles (Group 2) struggle the most in readability}, 
+          showing the lowest scores and the highest variance, which suggests a 
+          need for additional customization.
+    \item \textbf{Readability stability is highest in Group 3}, meaning that GPT-SEO 
+          content is more consistent in its readability, even if it does not reach the 
+          highest levels.
+\end{itemize}
+
+These results emphasize the trade-off between readability and SEO optimization. While 
+GPT-SEO (Group 3) achieves strong SEO scores, its readability remains lower than 
+human-authored content. This suggests that the best strategy may involve a hybrid 
+approach, where AI-generated drafts are refined by human editors to maximize both 
+readability and search engine performance.
+
+\section{Discussion}
+
+The objective of this chapter is to discuss the key topics covered in this thesis to provide elements of response to our research questions, which were:  
+
+\begin{enumerate}
+    \item \textbf{How do AI models function and contribute to SEO improvement across different dimensions?}  
+    \item \textbf{How can the performance of AI-driven SEO models be evaluated using relevant indicators and metrics?}  
+    \item \textbf{What are the inherent limitations and challenges of AI-driven SEO strategies?}  
+\end{enumerate}
+
+\subsection{Interpretation of Results in Relation to the Literature}
+
+\subsubsection{SEO Performance: The Impact of AI on Optimization}
+
+The results obtained from our study highlight several key trends regarding the SEO performance of pre-tuned generative models. One of the most striking observations is the disparity in SEO scores among human writers. While some human authors achieve high SEO scores, others perform significantly worse, leading to a broad variation in results. This variability underscores the dependency of human-written content on the skill and expertise of the individual writer.
+
+Conversely, pre-trained AI models demonstrate remarkable consistency in SEO performance. Unlike human-generated content, which fluctuates in quality, pre-tuned generative models achieve consistently high and satisfactory SEO scores. This finding aligns with existing literature, which suggests that generative models are optimized for SEO when they are adequately trained on relevant datasets \cite{alfiana2023, haleem2022, lewandowski2021}.
+
+However, it is essential to note the substantial gap in SEO performance between AI-generated content with and without pre-training. Our study shows a significant disparity between Group 2 (standard AI-generated content) and Group 3 (pre-trained AI models). This discrepancy suggests that AI models, when prompted with only a few words, do not inherently produce SEO-optimized content. Instead, training and customization appear to be critical factors in achieving high SEO scores \cite{apjml2023, aggarwal2024}.
+
+These findings reinforce the idea that generative AI models can be highly effective for SEO, provided they undergo adequate pre-training. In contrast, human-generated content remains dependent on individual expertise, leading to a wider range of outcomes. The implications of these insights are substantial for content marketing strategies, as they suggest that AI-assisted writing should be strategically leveraged to enhance SEO performance while still incorporating human oversight to maintain originality and engagement \cite{lewandowski2022}.
+
+
+\subsubsection{Readability: A Challenge for AI}
+
+Our findings indicate that human-authored content generally achieves higher readability scores compared to AI-generated text. This trend is observed across all groups, with human writers demonstrating a clear advantage in producing accessible and easily digestible content. The disparity stems from the complexity of language employed by AI models, which often leads to reduced readability and limited accessibility for broader audiences.
+
+Even though pre-trained AI models perform slightly better than their non-pre-trained counterparts, their readability scores remain suboptimal. The literature supports this observation, noting that generative AI models tend to produce text with dense structures and complex vocabulary, which may hinder user comprehension \cite{haleem2022, lewandowski2021}. Readability is a crucial factor in content marketing, as user engagement and information retention are directly influenced by the ease with which content can be understood \cite{aggarwal2024}.
+
+The limitations in readability suggest a significant area for improvement in AI-generated content. While AI has proven effective in optimizing content for SEO, ensuring that the text remains accessible and engaging remains a challenge. This shortcoming can be viewed as a margin for future progress, wherein additional training on readability-focused objectives could enhance AI-generated content.
+
+Pre-training models with an explicit focus on readability could lead to substantial improvements in the future. If further refinement and optimization are applied, it is plausible that an advanced, robust pre-trained AI model could eventually surpass human writers in terms of both SEO performance and readability \cite{apjml2023, lewandowski2022}. Such advancements would position AI as an even more valuable tool for digital content creation, provided that it successfully balances optimization with clarity and accessibility.
+
+\subsubsection{Cost Efficiency and ROI Considerations}
+
+In evaluating the cost-efficiency and return on investment (ROI) of different SEO content strategies, the first step is to compare the average writing time and associated costs for each group.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|l|c|c|}
+        \hline
+        \textbf{Group} & \textbf{Average Writing Time} & \textbf{Estimated Cost per Article} \\
+        \hline
+        Human Writers & 1.5 - 2 hours (500 words) & €25 - €35 \\
+        General AI Models & 30 sec - 2 min & €0.02 \\
+        customized AI Models & 30 sec - 2 min & €0.02 (initial cost amortized) \\
+        \hline
+    \end{tabular}
+    \caption{Comparison of Writing Time and Cost Between Human and AI-Generated Content}
+    \label{tab:cost_comparison}
+\end{table}
+
+From a purely cost-efficiency perspective, customized AI models clearly offer the highest return on investment. The significantly reduced writing time and lower cost per article make them an attractive choice for companies seeking to scale their content production efficiently. 
+
+The literature supports this efficiency gain, noting that AI-generated content, when optimized through pre-training, performs consistently well in SEO metrics while requiring minimal human intervention \cite{aggarwal2024, haleem2022}. Additionally, AI’s ability to rapidly adjust to new SEO trends allows businesses to remain competitive without incurring ongoing high labor costs \cite{lewandowski2021}.
+
+However, while AI models are more cost-effective and efficient, the question remains whether this is the best solution for every company. In highly competitive SEO markets, where ranking performance directly correlates with revenue, hiring a human SEO expert capable of consistently achieving near-perfect scores may be justified \cite{apjml2023}. Despite higher initial costs, the long-term financial return from improved rankings and higher engagement rates could outweigh the cost of AI implementation.
+
+Another critical aspect to consider is the potential for further optimizing AI models. Additional training and customization would incur extra costs, but it could lead to AI-generated content performing at the same level as top-tier human SEO experts, both in terms of SEO ranking and readability \cite{alfiana2023}. This would allow companies to maintain high content performance while significantly reducing production costs over time.
+
+For our case study, the customized AI model is currently the most effective and cost-efficient solution. It provides strong SEO results at a fraction of the cost of human-written content. Future considerations should focus on improving AI models further, optimizing them for enhanced readability and ensuring their continued effectiveness in an evolving SEO landscape \cite{lewandowski2022}.
+
+It is important to note that in an industry undergoing constant change, maintaining peak SEO performance over the long term can be challenging. A best practice approach may involve a combination of both AI-generated content and human oversight. A human SEO expert, staying up to date with algorithm changes and best practices, can periodically update and refine the AI model to ensure continued optimization.
+
+To achieve this, a marketing professional with strong technical skills in AI optimization may be necessary. This profile would be responsible for continuously customization the model, ensuring that it adapts effectively to evolving SEO trends and remains competitive in delivering high-ranking content.
+
+\subsection{Study limitations}
+
+
+\subsubsection{Sample Size and Diversity Considerations}
+
+One of the primary limitations of this study is the relatively small sample size. The dataset used consists of 150 articles, which, while sufficient to identify general trends, is not large enough to establish a statistically significant study with a low margin of error. A larger sample size would allow for more precise validation of observed trends while reducing the potential for anomalies and errors in the results.
+
+Furthermore, within Group 2, a more detailed comparative analysis could be conducted by evaluating each of the five LLMs using similar prompts over a significantly larger dataset. This would provide deeper insights into which model performs best in terms of SEO and readability scores. Given the current sample size, it is not possible to establish any definitive tendency favoring one LLM over another. Expanding this sample would enhance the robustness of the conclusions drawn from such comparisons.
+
+A follow-up study could be beneficial for those aiming to develop their own AI model, as it would help in determining which LLM inherently performs best before undergoing customization. This would be particularly useful for businesses or researchers seeking to optimize content generation while maintaining high SEO performance.
+
+In terms of sample diversity, Groups 1 and 2 exhibited sufficient variability to provide a broad perspective on human-written and general AI-generated content. However, Group 3 was limited to the customized model specifically created for this study. Comparing this model with other similarly customized models could be valuable in assessing whether similar trends emerge across different AI training approaches. Such comparisons would help determine if the performance improvements observed are unique to the specific model used or if they are more broadly applicable across various customized AI models.
+
+
+\subsubsection{Dependence and limitations of evaluation tools}
+
+A significant limitation of this study relates to the reliance on third-party SEO evaluation tools. One of the primary challenges encountered was the lack of transparency regarding the mechanisms used for SEO scoring and evaluation.
+
+Google and other search engines maintain confidential ranking algorithms, making it difficult to fully understand how content is evaluated. While fundamental SEO guidelines are provided to ensure user-friendly content, industries operating in highly competitive SEO environments must remain informed about trends and best practices to maximize ranking performance.
+
+Over time, reliable evaluation models such as SemRush have emerged, compiling extensive data on SEO best practices. These tools offer SEO and readability scores that closely reflect real-world ranking behavior and have established themselves as market leaders in SEO performance evaluation. SemRush, among other similar tools, has developed a business model centered around SEO assistance for companies, allowing businesses to optimize their content effectively.
+
+While alternative evaluation tools exist, SemRush remains the most widely adopted and trusted solution in the industry. However, its scoring system is based on hundreds of criteria, many of which are not fully disclosed. Only general SEO recommendations, similar to those outlined in this study, are made available to help users improve their scores.
+
+These two factors contribute to a limitation in the study concerning the transparency of SEO evaluation processes. The reliance on proprietary scoring models introduces a degree of uncertainty regarding the exact mechanisms that influence rankings, making it difficult to validate results beyond the scope of existing SEO tools.
+
+\subsubsection{Influence of updates}
+
+The findings of this study are subject to potential obsolescence due to the ever-evolving nature of search engine algorithms. Search engines, particularly Google, frequently update their ranking methodologies, which can significantly alter SEO best practices over time. Consequently, the strategies and models evaluated in this research may not yield the same results in the future, as search engine optimization practices continue to adapt to algorithmic changes.
+
+Another factor contributing to the limitations of this study is the rapid advancement of artificial intelligence itself. AI models are continually improving, meaning that the findings presented here may become outdated as newer, more sophisticated models emerge. These advancements could either lead to AI models entirely surpassing human-written content in SEO performance or, conversely, to the deterioration of AI-generated content due to a phenomenon known as \textit{model collapse}. 
+
+\textit{Model collapse} occurs when AI models are trained predominantly on data generated by other AI systems rather than diverse, human-created content. This can result in a gradual decline in the quality, diversity, and accuracy of AI-generated content. 
+
+Existing literature suggests that AI-based SEO strategies must incorporate continuous monitoring and adaptation to mitigate these risks \cite{lewandowski2022, haleem2022}. Without such adjustments, AI-generated content may eventually fail to meet evolving search engine requirements, leading to diminished ranking performance.
+
+The continuous evolution of the SEO industry and the technologies that drive it represent a major limitation for this study. While the findings presented here are relevant to current SEO methodologies, future changes in search engine algorithms and AI advancements could render these insights obsolete. Thus, ongoing research and adaptation are necessary to maintain optimal SEO strategies in the long run.
+
+\subsection{Ethical considerations}
+
+\subsubsection{Risk of Content Standardization}
+
+The increasing reliance on AI-generated content in SEO raises concerns about content standardization and the long-term effects of model collapse. This phenomenon occurs when AI systems are repeatedly trained on data that is itself generated by other AI models, leading to a progressive degradation in content diversity and originality.
+
+
+Model collapse refers to a scenario where AI-generated content becomes the dominant source of training data for newer AI models. Initially, AI models learn from a diverse range of human-authored texts, capturing varied linguistic structures, nuanced expressions, and factual accuracy. However, as AI-generated content proliferates, newer models increasingly rely on text that has already been synthesized by AI, which reduces exposure to authentic human-created material.
+
+This recursive process leads to a gradual loss of linguistic diversity and semantic richness. AI models, designed to predict the most statistically likely sequence of words, start reinforcing pre-existing patterns, making their outputs more predictable, repetitive, and lacking in creativity. Over time, certain expressions, structures, and phrases become dominant, while unique or less common styles of writing fade away. This convergence is often referred to as mode collapse, where models become biased towards high-probability outputs, eliminating variability in the generated text.
+
+Another significant consequence of this phenomenon is the propagation of errors and biases. AI models inevitably produce minor inaccuracies, inconsistencies, or stylistic artifacts. When these outputs are repeatedly used as training data, imperfections accumulate, degrading the quality and reliability of future AI-generated content. This feedback loop can lead to factual distortions and the reinforcement of pre-existing biases rather than the correction of errors.
+
+
+The widespread adoption of AI-generated content without intervention presents multiple risks for digital content quality and search engine performance. One of the most immediate concerns is the diminishing uniqueness of content. If multiple AI models are trained on similar datasets and apply the same SEO principles, they will likely generate content that looks nearly identical. This leads to an oversaturation of standardized, formulaic articles, where different websites present near-duplicate versions of the same information. Such uniformity reduces the diversity of perspectives available online and diminishes user engagement.
+
+From an SEO perspective, excessive standardization may also have negative consequences on search rankings. Search engines prioritize originality and high-quality content, and as AI-generated content becomes increasingly repetitive, ranking algorithms could begin to penalize websites that rely too heavily on predictable AI outputs. If search engines evolve to detect and de-rank AI-generated standard content, businesses that depend on AI for content creation may see diminishing SEO returns.
+
+Beyond ranking concerns, model collapse raises the issue of declining informational accuracy. AI models generate text based on statistical patterns, not true understanding. When trained repeatedly on synthetic data, they may begin to introduce factual inaccuracies, hallucinated claims, or misleading simplifications. Over time, this could undermine the credibility of AI-generated information, particularly in industries that require high levels of accuracy, such as medicine, finance, and law.
+
+There is also a risk of amplifying algorithmic biases. AI models inherit biases from their training data, and if they continue to learn from AI-generated content, those biases may be amplified rather than corrected. This could lead to the reinforcement of particular narratives or perspectives while reducing the presence of alternative viewpoints, affecting the diversity of search engine results.
+
+
+Addressing model collapse and content standardization is a growing challenge for AI researchers, search engine developers, and digital marketers. A key solution is to maintain a balance between AI and human-created content. Instead of fully automating content production, businesses should integrate human editorial oversight to ensure originality, readability, and relevance. AI-generated drafts can serve as a foundation, but human refinement is essential to preserve creativity and authenticity.
+
+Another approach involves diversifying AI training data. Future AI models should be trained on a continuously updated mix of human-authored and AI-generated content, ensuring exposure to varied writing styles and perspectives. Techniques such as data augmentation and synthetic text filtering can help counteract the tendency of AI models to reinforce their own outputs.
+
+Search engines also play a crucial role in preventing excessive AI-driven content standardization. If ranking algorithms begin detecting and penalizing repetitive AI-generated content, businesses will be incentivized to prioritize originality. Implementing AI content detection tools could help maintain a diverse and dynamic search ecosystem.
+
+On a technical level, AI model development should prioritize training methodologies that encourage novelty and variation. Reinforcement learning techniques can be adjusted to favor diverse phrase structures and unique writing styles over high-probability, repetitive outputs. Additionally, incorporating real-time human feedback into training loops could help AI models adapt to changing SEO trends while maintaining content originality.
+
+The phenomenon of model collapse and content standardization poses a significant challenge to the sustainability of AI-driven SEO strategies. As AI-generated text becomes increasingly dominant, it is crucial to implement safeguards that preserve diversity, originality, and factual accuracy in online content. Future research and regulatory discussions should focus on establishing ethical AI content generation standards to ensure that search engines continue to provide users with reliable and diverse sources of information.
+
+\subsubsection{Impact on the Digital Content Economy}
+
+One of the most significant economic impacts of AI-driven SEO content generation is its effect on employment. The widespread adoption of AI-based tools aims to replace tasks traditionally performed by human writers. As AI models continue to improve, a considerable portion of content writing work may be automated, potentially leading to job displacement within the industry.
+
+Small and medium-sized enterprises (SMEs) may become increasingly dependent on AI tools for content creation and SEO optimization. In highly competitive markets, businesses may have no alternative but to integrate AI-based solutions to remain competitive, further driving the transition away from human-generated content.
+
+Another economic concern is the potential rise in costs associated with AI models. As more entities rely on these technologies for content generation, demand for high-performance AI solutions could increase, leading to rising costs of access and usage. Some small businesses that rely heavily on organic search traffic for revenue may struggle to afford these AI-driven tools, potentially forcing them out of the market.
+
+This shift also raises ethical concerns regarding economic disparities in digital marketing. Larger companies with significant financial resources can afford advanced AI models and customized SEO strategies, whereas smaller businesses with limited budgets may find it difficult to compete. This could lead to further market consolidation, where only well-funded enterprises dominate search engine rankings while independent content creators and smaller businesses face increasing challenges to visibility.
+
+The literature highlights these growing concerns regarding automation and digital market competition \cite{aggarwal2024, lewandowski2022}. The long-term economic impact of AI-driven SEO strategies will depend on how businesses adapt to these technological advancements and whether regulatory frameworks emerge to address disparities in digital content accessibility and fairness.
+
+\subsubsection{Transparency of AI-Generated Content}
+\label{sec:ai_content_transparency}
+
+As AI-generated content becomes increasingly sophisticated, the distinction between human-written and AI-generated text is becoming increasingly blurred. In many cases, AI-generated articles can mimic human linguistic structures so effectively that they become nearly indistinguishable from content written by humans. While this presents opportunities for efficiency in content production, it also raises ethical concerns regarding transparency and trust in online information.
+
+A major issue arises in sensitive fields such as healthcare, law, and finance, where the accuracy and credibility of information are critical. If AI-generated blog articles on medical advice or legal matters circulate online without proper verification, users might unknowingly rely on misleading or inaccurate information. The consequences could be severe, leading to misdiagnoses, financial losses, or legal misunderstandings based on content that was never reviewed by a subject matter expert.
+
+The political domain is another area of concern. AI-generated content, when optimized for SEO, could be leveraged to influence public opinion, either by spreading misinformation or subtly discrediting political candidates. Well-crafted AI-generated articles designed to promote or undermine specific political narratives could manipulate public discourse without readers realizing that the content was not authored by a human. This raises serious questions about the potential for AI-generated propaganda and digital manipulation.
+
+Given these risks, an important ethical question emerges: should AI-generated content be explicitly labeled to inform users of its origin? Transparency measures are already being implemented on some social media platforms, where AI-generated images and deepfake videos are flagged to users. A similar approach could be adopted for AI-generated written content, ensuring that readers are aware of when an article has been created or heavily influenced by AI.
+
+Potential solutions include:
+\begin{itemize}
+ \item Clear AI attribution in content metadata – Publishers could include a visible label or disclaimer at the top of articles indicating that the text was generated by AI, ensuring that readers can assess the credibility of the source.
+ \item Mandatory AI disclosure policies – Search engines and regulatory bodies could enforce guidelines requiring websites to disclose whether content has been AI-generated.
+ \item Industry self-regulation – Companies relying on AI for content creation could implement internal policies ensuring that AI-generated articles undergo human validation before publication.
+ \end{itemize}
+
+The responsibility for enforcing transparency could fall on both businesses and search engines. While companies creating AI-generated content should aim for ethical self-regulation, search engines could play a more active role by highlighting AI-generated content in search results. By introducing transparency mechanisms, the industry could work toward ensuring that AI-generated information is trustworthy, properly verified, and responsibly presented to users.
+
+
+\subsection{Future perspectives}
+
+\subsubsection{Hybrid Generation Method for SEO}
+
+As discussed in the previous section on ethical considerations, one of the main challenges of AI-driven SEO content creation is the risk of data standardization and model collapse. To mitigate these risks, research suggests that the most effective approach currently available is a hybrid generation model, where human expertise is combined with AI capabilities to produce optimal results \cite{lewandowski2021, aggarwal2024}.
+
+The hybrid generation approach allows businesses to leverage the efficiency and scalability of AI, while simultaneously ensuring content originality, diversity, and factual accuracy through human oversight. In this model, AI generates content based on predefined human instructions, similar to the custom GPT-SEO model developed for this study. However, instead of publishing the content immediately, a human validation step ensures that the final article meets quality and ethical standards.
+
+This approach presents several advantages:
+- Minimized risks of standardization: By incorporating human validation, AI-generated content remains unique and varied rather than converging towards repetitive patterns.
+- Balanced optimization: AI can handle the heavy lifting of structuring and optimizing the article for SEO, while humans refine readability and contextual accuracy.
+- Reduced human workload: While human involvement is still required, it is significantly less time-consuming than writing the entire article manually.
+- Sustainability of AI-generated SEO strategies: Continuous human oversight ensures that AI-generated content aligns with evolving search engine algorithms and industry-specific nuances.
+
+Given these benefits, it is likely that future SEO content models will increasingly integrate hybrid collaboration, where AI is responsible for drafting and optimizing content, and humans act as quality control supervisors making final adjustments before publication. 
+
+However, as AI continues to evolve, it is also possible that human involvement may eventually become obsolete. Fully autonomous SEO models could emerge, eliminating the need for human intervention entirely, as we will explore in the next section.
+
+\subsubsection{Automation of SEO with AI}
+
+As demonstrated in this study, it is entirely possible to generate high-performing SEO content using artificial intelligence. The future of SEO may involve further automation of this process, transitioning from human-AI collaboration to fully automated AI-driven content creation.
+
+Currently, the standard model involves a human selecting the topic while AI generates the article. However, advancements in AI suggest the emergence of agent-based AI teams dedicated to SEO content generation. These AI agents would work together in an interconnected system, each fulfilling a specialized role in the content creation process.
+
+A potential automated SEO workflow could involve:
+
+\begin{enumerate}
+    \item \textbf{Market Analysis AI}: This AI agent would be responsible for monitoring industry trends, analyzing competitor strategies, and identifying relevant topics based on seasonal trends, news, and search volume data.
+    \item \textbf{Content Generation AI}: Once the topic is identified, this AI agent would focus on producing an article optimized for SEO, ensuring keyword integration, readability, and adherence to best ranking practices.
+    \item \textbf{Quality Control AI}: The final AI agent would act as an editor, reviewing the generated article for coherence, factual accuracy, and SEO compliance before publishing it automatically.
+\end{enumerate}
+
+This structured workflow would enable complete automation of SEO content production, significantly reducing the need for human intervention while optimizing content for maximum visibility. 
+
+Some models implementing this form of automation already exist, though widespread adoption remains in early stages. Future iterations of AI-powered SEO agents could lead to fully autonomous digital marketing strategies, where AI continuously adapts to search engine updates and user behavior trends without human oversight.
+
+The implications of this evolution are significant. Businesses leveraging fully automated SEO strategies could achieve higher scalability in content production. However, ethical considerations and quality assurance remain key challenges. Ensuring AI-generated content maintains diversity, originality, and factual accuracy will be crucial to its long-term success in the SEO industry.
+
+As AI-driven SEO automation advances, further research will be required to assess its impact on market competition, content diversity, and user engagement.
+
+\subsubsection{Evolution of SEO}
+
+The way users search for information on the internet is undergoing significant changes. With the rise of voice assistants integrated into smartphones, AI-driven search engines, and multimodal search capabilities, the SEO landscape is rapidly evolving. These transformations impact how content is indexed and presented to users, leading to the emergence of new SEO practices.
+
+One of the major shifts in search engine interactions is the rise of \textbf{conversational search}. Instead of relying solely on traditional keyword-based searches, users can now engage in natural conversations with AI-powered assistants. These AI systems provide contextual answers and recommendations, directing users to specific websites based on their queries. This evolution requires businesses to optimize their content not only for conventional search engine indexing but also for AI-driven recommendations.
+
+Another key development is \textbf{hyper-personalization} in search results. Search engines are increasingly tailoring results based on user behavior, location, and browsing history. This means that two users entering the same search query may receive different results depending on their personal preferences and geographic location. While location-based search personalization already exists, future advancements could further refine content ranking based on real-time behavioral analysis, requiring businesses to adapt their SEO strategies accordingly.
+
+A new concept emerging in response to these changes is \textbf{Generative Engine Optimization (GEO)}. GEO involves optimizing content specifically for AI-driven search engines that use natural language processing and machine learning to generate responses. Unlike traditional SEO, which focuses on ranking in search engine result pages (SERPs), GEO aims to position content favorably within AI-generated responses, ensuring that AI-powered systems reference and recommend the content effectively.
+
+As user adoption of AI-powered search assistants increases, GEO strategies may become an essential part of digital marketing. Businesses will need to develop content that aligns with AI-generated recommendations, integrates structured data for enhanced AI comprehension, and adapts to the conversational nature of future search engines.
+
+These advancements highlight the necessity for continuous adaptation in SEO practices. The integration of AI in search engines is reshaping the way information is retrieved, requiring businesses and content creators to stay ahead of evolving trends. Future research will be needed to explore the long-term impact of AI-driven search methodologies and the effectiveness of GEO strategies in maintaining visibility in an increasingly dynamic search environment.
+
+\section{Conclusion}
+
+This study has identified key trends in the growing impact of artificial intelligence on SEO content generation, highlighting both its potential advantages and its limitations. The findings suggest that pre-trained AI models may provide significant benefits in terms of SEO performance, consistency, and cost-effectiveness. However, challenges remain, particularly concerning readability and the necessity of customization models to optimize results.
+
+The study observed that AI models, when properly trained, tend to achieve strong SEO performance, though human-written content remains more engaging and adaptable. However, AI-generated content continues to face challenges in readability, which can affect user engagement and accessibility. The cost-effectiveness of AI-generated content makes it an appealing option for businesses, yet it also raises ethical concerns regarding job displacement and market dependencies. Additionally, the automation of SEO through AI-driven content creation and agent-based systems could lead to increased efficiency, but also risks such as content standardization and potential model collapse.
+
+Although AI-based SEO strategies present notable benefits, continuous adaptation is required. The rapid evolution of search engine algorithms and AI capabilities means that best practices must be frequently reassessed. Hybrid models that integrate human expertise with AI-generated content may represent the most effective approach to maintaining content quality, originality, and engagement.
+
+Future research should focus on expanding sample sizes to refine the reliability of observed trends, enhancing AI models to improve readability and engagement while maintaining SEO effectiveness, exploring the long-term impact of Generative Engine Optimization (GEO) on digital marketing strategies, and examining the ethical implications of AI-driven content creation in highly competitive digital environments.
+
+In conclusion, while AI is increasingly influencing SEO, its successful integration into content marketing strategies may require balancing automation with human oversight. As search engines evolve and AI capabilities advance, businesses must remain adaptable, leveraging both technological innovations and expert-driven refinements to sustain SEO performance in an ever-changing digital landscape.
+
+\clearpage
+
+\section*{Appendix}
+
+\appendix
+
+\subsection*{1. Github repository}
+All the materials related to this thesis are available in a dedicated GitHub repository. This repository contains:
+
+\begin{itemize}
+    \item The full set of \textbf{research articles} reviewed in the literature.
+    \item The \textbf{dataset} containing all experimental results.
+    \item The \textbf{texts generated for Group 2 (LLM)} during the study.
+    \item The \textbf{LaTeX source code} used to compile this thesis.
+    \item The \textbf{final PDF version} of the thesis.
+\end{itemize}
+
+The repository ensures full transparency and reproducibility of the research conducted in this study. Researchers, students, and other interested parties can freely access and explore the provided data.
+
+\vspace{1em}
+
+\noindent  \textbf{GitHub Repository:}  
+\url {https://github.com/Leorongier/Thesis}
+
+
+
+\printbibliography
+
+\nocite{}
+
+\end{document}
+
+
+
+
